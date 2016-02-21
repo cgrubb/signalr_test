@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavascriptClient.Tests", "J
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_console", "test_console\test_console.csproj", "{D5CB7357-A805-4EA6-84F9-AB88F91FF287}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8190ADE6-0369-4446-A574-4E6D0E69AF08}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,5 +30,7 @@ Global
 		{D5CB7357-A805-4EA6-84F9-AB88F91FF287}.Debug|x86.Build.0 = Debug|x86
 		{D5CB7357-A805-4EA6-84F9-AB88F91FF287}.Release|x86.ActiveCfg = Release|x86
 		{D5CB7357-A805-4EA6-84F9-AB88F91FF287}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
